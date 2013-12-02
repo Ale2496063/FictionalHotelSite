@@ -1,7 +1,7 @@
 /* Custom Styles For Whatever Hotel */
 /* Styles in this stylesheet target items that occur only on one specific page. */
 
-/* CSS Final Project by _______________________ <----  YOUR NAME HERE */
+/* CSS Final Project by Amy Le <----  YOUR NAME HERE */
 
 
 /* First 3 table rules below should probably be left alone, but some values can be adjusted as needed. */
@@ -52,4 +52,13 @@ table#calendar td {
 
 /* Miscellaneous Styles: For any other styles for a single page that does not fit the above categories.  
    ====================  Use only as needed. This section is optional and does not count for any points.    */
+   
+.photo{
+	height:200px;
+	width: 250px;
+}
+.servicepic{
+	height: 200px;
+	width: 300px;
+}
 

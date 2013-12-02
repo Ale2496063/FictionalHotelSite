@@ -30,15 +30,18 @@ header, nav, section, footer, article {     /* leave this alone */
 
 body{
 	color: #D8D8D8;
-	background: #4F6C93;
-	margin: 5% 15% 0 15%;
+	background: #BDB59B url('Images/drwhominimalbg.jpg') no-repeat 50% 55% fixed;
+	margin: 2% 10%;
 	padding: 0 20px 0 20px;
 	font: 18px 'rationale_oneregular', Arial, sans-serif;
+	
 	
 }
 
 #pagewrap{
-	
+	border: 2px solid black;
+	padding: 15px;
+	background-color:rgba(133, 106, 64, .8);
 }					
 
 
@@ -96,7 +99,7 @@ font-size: 1em;
 
 #intro{
 	border:4px inset #B6C5CB;
-	background: rgba(102, 154, 175, .5);
+	background: rgba(102, 154, 175, .9);
 	padding: 10px;
 	margin-bottom: 10px;
 }
@@ -120,7 +123,23 @@ footer{
 
 /* 5. General Link Styles: Style the links outside the nav bar area using at least color and text-decoration  
    ======================  Write 4 separate rules to affect all 4 link states.  */
+#main a:link{
+	text-decoration: none;
+	color:#CFB92D;
+}
 
+#main a:visited{
+	color:#2B4E6E;
+}
+
+#main a:hover{
+	text-decoration: underline overline;
+	color: #B4D7E3;
+}
+
+#main a:active{
+	color:#6E8599;
+}
 
 
 
@@ -129,13 +148,49 @@ footer{
    ========================  Style all 4 link states to make active buttons when hovering. Remove bullets from list display. 
                              Use selectors like "#eventspage #eventslink" to style the link to its own page separately      */ 
 
+nav li {
+	list-style: none;
+	display: inline;
+	padding: 5px;
+	font-size: 25px;
+	
+}							 
 
+nav a:link{
+	background-color:#873114;
+	padding: 5px 10px;
+	color:#E8E8E8;
+	text-decoration: none;
+}
 
+nav a:visited{
+	color:#E8E8E8;
+	text-decoration: none;
+}
+
+nav a:hover{
+	background-color:#CF8C76;
+}
+
+nav a:active{
+	background-color:#A36550;
+}
+
+#homepage #homelink, #reservationspage #reservationslink, #servicespage #serviceslink, #contactpage #contactlink, #eventspage #eventslink, #faqpage #faqlink{
+	background: url('Images/bgBlueTexture.jpg') 400px;
+}
 
 
 /* 7. General List Styles: For unordered lists outside of nav bar. Set 2 levels of bullet shapes & 2 levels of bullet images. 
    ======================  Outer bullets should stand out more than inner bullets. Use Reservations & Contact pages to test. */
+#primary  ul li{
+	list-style: circle;
+	list-style-image: url('Images/tardisIcon.png');
+}
 
+#primary ul ul li {
+	list-style: square;
+}
 
 
 
@@ -145,10 +200,30 @@ footer{
    =====================  the 3 testimonial divs, the quotes, and the speakers. Goals: Uniquely style testimonial section 
 	                       itself, emphasize quote, de-emphasize speaker name. Adjust vertical spacing between items.       */
 
+#testimonials{
+	border: 2px solid #875A1F;
+	width: 260px;
+	padding: 10px 20px;
+	margin-top: 20px;
+	background: #181C36 url('Images/tardistypography.jpg') 18px no-repeat ;
+}
 
+.testimonial{
+	font-weight: bold;
+	margin: -10px 115px 0 0;
+}
 
+.quote{
+	line-height: 30px;
+	color: #91D8D9;
+}
 
-
+.speaker{
+	margin-top: -7px;
+	letter-spacing: -1px;
+	font-variant: small-caps;
+	border-bottom: 1px dotted white;
+}
 
 /* 9. Logo Positioning Styles: Absolute Positioning of logo image using "positionme" id. Leave the existing blank div at 
    ==========================  bottom of each page in the html & style it to go toward the top of pages where you like.  
@@ -183,4 +258,6 @@ footer{
 
 /* Miscellaneous Styles: Styles that don't fit in any of the above categories but affect multiple pages can go here. 
    ====================  Use only as needed. This section is optional and does not count for any points.                 */
+   
+
 
