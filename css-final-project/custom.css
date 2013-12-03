@@ -28,24 +28,28 @@ table#calendar td {
 /* 1. Events Page Calendar Styles: Create 5 or more calendar table related rules. These should not affect other tables!    
    ==============================  5 required areas to style: table heading, weekdays, date #'s, empty days, & events.      
                                    You can style the table itself too. Consider using backgrounds on some of these areas. */
-#monthYear{
+#calendar #monthYear{
 	color: #CF651F;
 	background-color:#9BBAC7;
 }
 
-.weekday{
+#calendar .weekday{
 	color:#F73F0C;
 }
 
-.date{
+#calendar .date{
 	color:#754C21;
 	font-weight: bold;
 	background-color: #F7EFDC;
 	padding-left: 10px;
 }
 
-.noday{
+#calendar .noday{
 	background-color: #9BBAC7;
+}
+
+#calendar .event{
+	padding: 8px;
 }
 
 #calendar{
@@ -60,7 +64,22 @@ table#calendar td {
    ====================================  question and answer pairs are grouped closer together vertically,          
                                          and as a result the whole section is more visually pleasing.               */
 
+.question{
+	border-bottom:1px solid #692411;
+	border-left: 5px solid #692411;
+	padding-left: 10px;
+}
 
+.answer{
+color:#111E69;
+background-color: rgba(143,179,177,.5);
+padding: 10px
+}
+
+.answer::first-letter{
+	font-size:24px;
+	font-weight: bold;
+}
 
 
 
