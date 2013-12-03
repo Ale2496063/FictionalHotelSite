@@ -98,10 +98,11 @@ font-size: 1em;
    ==========================   */
 
 #intro{
-	border:4px inset #B6C5CB;
 	background: rgba(102, 154, 175, .9);
+	border:4px inset #B6C5CB;
 	padding: 10px;
-	margin-bottom: 10px;
+	margin-bottom: 20px;
+	font-size: 20px;
 }
 
 
@@ -204,8 +205,8 @@ nav a:active{
 	border: 2px solid #875A1F;
 	width: 260px;
 	padding: 10px 20px;
-	margin-top: 20px;
-	background: #181C36 url('Images/tardistypography.jpg') 18px no-repeat ;
+	/** margin-top: 20px; **/
+	background:#181C36 url('Images/tardistypography.jpg') 18px no-repeat ;
 }
 
 .testimonial{
@@ -238,6 +239,25 @@ nav a:active{
    ==============================  For help with these styles, see the online "Final Project Layout Guide" handout.     
 	                                For some partial credit here you can use just the layout styles from A3P5              */
 
+#primary, #testimonials{
+	display: inline-block;
+}
+
+#primary{
+	width:65%;
+	padding: 10px;
+	float: left;
+}
+
+#testimonials{
+	float: right;
+}
+
+
+
+footer{
+	clear: both;
+}
 
 
 
@@ -250,6 +270,25 @@ nav a:active{
 						  on h1 headings, put just the shadow code here & the other font related CSS code in "headings" area.   
 						  Note: @font-face properties don't go here -- place them in the sections where the fonts are used.  
 						  Do not include any -webkit or -moz based browser properties.                                         */
+.photo, .servicepic{
+	box-shadow: -9px 13px 9px rgba(66, 54, 50, 0.83);
+	opacity: .7;
+	border-radius: 25px;
+}
+
+h1{
+	text-shadow: -3px 3px 2px rgba(150, 150, 150, 1);
+}
+
+#testimonials{
+	border-radius: 10px;
+}
+
+#intro{
+	background: linear-gradient(180deg, rgb(102, 154, 175) 0%, rgb(72, 86, 114) 100%);
+}
+
+
 
 
 
@@ -259,5 +298,7 @@ nav a:active{
 /* Miscellaneous Styles: Styles that don't fit in any of the above categories but affect multiple pages can go here. 
    ====================  Use only as needed. This section is optional and does not count for any points.                 */
    
-
+footer{
+	margin: 0 auto;
+}
 

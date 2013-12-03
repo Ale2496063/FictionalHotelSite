@@ -28,6 +28,29 @@ table#calendar td {
 /* 1. Events Page Calendar Styles: Create 5 or more calendar table related rules. These should not affect other tables!    
    ==============================  5 required areas to style: table heading, weekdays, date #'s, empty days, & events.      
                                    You can style the table itself too. Consider using backgrounds on some of these areas. */
+#monthYear{
+	color: #CF651F;
+	background-color:#9BBAC7;
+}
+
+.weekday{
+	color:#F73F0C;
+}
+
+.date{
+	color:#754C21;
+	font-weight: bold;
+	background-color: #F7EFDC;
+	padding-left: 10px;
+}
+
+.noday{
+	background-color: #9BBAC7;
+}
+
+#calendar{
+	background: url('Images/DrAndDalek.jpg') -50px -20px;
+}
 
 
 
@@ -61,4 +84,14 @@ table#calendar td {
 	height: 200px;
 	width: 300px;
 }
+
+#calendar {
+	color: black;
+}
+
+.day{
+	background-color: rgba(252,230,162,.6);
+}
+
+
 
