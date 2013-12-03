@@ -80,19 +80,22 @@ h1, h2, h3 {
 }
 
 h1{
-font-size: 5em;
-letter-spacing: 4px;
+	font-size: 4em;
+	letter-spacing: 4px;
+	margin-top: 90px;
 }
 
 h2 {
-font-family: 'juice_regularregular', Futura, sans-serif; 
-font-size: 2em;
+	font-family: 'juice_regularregular', Futura, sans-serif; 
+	font-size: 1.5em;
 }
 
 h3{
-font-family: 'juice_regularregular', Futura, sans-serif;
-font-size: 1em;
+	font-family: 'juice_regularregular', Futura, sans-serif;
+	font-size: 1em;
 }
+
+
 
 /* 3. Intro Paragraph Styles:  use at least 3 properties to emphasize 1st paragraph (intro article) 
    ==========================   */
@@ -231,7 +234,14 @@ nav a:active{
    ==========================  bottom of each page in the html & style it to go toward the top of pages where you like.  
 	                            Give it a height & width to match logo image, set image as background, position absolutely */
 
-
+#positionme{
+	height: 110px;
+	width: 622px;
+	background: url('Images/drWhoLogo.png') no-repeat;
+	position: absolute;
+	top: 3%;
+	right:12%;
+}
 
 
 
@@ -262,8 +272,6 @@ footer{
 
 
 
-
-
 /* 11. CSS3 Styles: Use of any CSS3 based properties, such as text and box shadows, rounded boxes, etc. See the final  
    ===============  project assignment directions for links to CSS3 resources, including CSS3 code generators.
                     The rules given in this section should not be copies of rules appearing in other sections. 
@@ -290,16 +298,19 @@ h1{
 }
 
 
-
-
-
-
-
-
 /* Miscellaneous Styles: Styles that don't fit in any of the above categories but affect multiple pages can go here. 
    ====================  Use only as needed. This section is optional and does not count for any points.                 */
    
 footer{
-	margin: 0 auto;
+	margin-left: 25%;
+	margin-right: 25%;
+}
+
+footer p:first-of-type{
+	margin-left: 30%;
+}
+
+footer p:last-of-type{
+	margin-left: 35%;
 }
 

@@ -72,7 +72,7 @@ table#calendar td {
 
 .answer{
 color:#111E69;
-background-color: rgba(143,179,177,.5);
+background-color: rgba(143,179,177,.6);
 padding: 10px
 }
 
@@ -86,15 +86,27 @@ padding: 10px
 /* 3. Services Page Image Styles: Use images' class to give common border (use a border style other than "solid").      
    =============================  Use images' id's to float first image to the left and second image to the right and   
                                   to give margins on the inside edge of floated images to keep text away from images.  */
+.servicepic{
+	border: 5px dotted #E3E3E3;
+}
 
+#leftpic{
+	float: left;
+	margin: 0 20px 15px 0;
+}
 
-
-
-
+#rightpic{
+	float: right;
+	margin: 0 0 15px 20px;
+}
 
 /* Miscellaneous Styles: For any other styles for a single page that does not fit the above categories.  
    ====================  Use only as needed. This section is optional and does not count for any points.    */
-   
+#homepage .photo{
+	float: left;
+	margin: 0 30px 20px 0;
+}  
+  
 .photo{
 	height:200px;
 	width: 250px;
