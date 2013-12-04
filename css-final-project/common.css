@@ -189,7 +189,7 @@ nav a:active{
 }
 
 #homepage #homelink, #reservationspage #reservationslink, #servicespage #serviceslink, #contactpage #contactlink, #eventspage #eventslink, #faqpage #faqlink{
-	background: url('Images/bgBlueTexture.jpg') 400px;
+	background-image: url('Images/bluebg2.jpg');
 }
 
 
